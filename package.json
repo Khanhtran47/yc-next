@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predev": "npm run typegen",
-    "prebuild": "npm run typegen",
+    "predev": "pnpm run typegen",
+    "prebuild": "pnpm run typegen",
     "typegen": "sanity schema extract --path=./sanity/extract.json && sanity typegen generate"
   },
-  "packageManager": "npm@11.2.0",
+  "packageManager": "pnpm@10.8.0",
   "overrides": {
     "react": "$react",
     "react-dom": "$react-dom"
@@ -24,7 +24,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.487.0",
-    "next": "15.2.5",
+    "next": "15.3.1-canary.1",
     "next-auth": "^5.0.0-beta.25",
     "next-sanity": "^9.9.9",
     "react": "^19.0.0",
@@ -42,7 +42,7 @@
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.2",
     "eslint": "^9.24.0",
-    "eslint-config-next": "15.2.5",
+    "eslint-config-next": "15.3.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
